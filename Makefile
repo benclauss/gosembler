@@ -2,7 +2,6 @@ clean:
 	find ./test -name "*.hack" -type f -delete
 	rm -f Assembler
 
-
 build: clean
 	go build -o Assembler
 	chmod +x Assembler
